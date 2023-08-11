@@ -4,3 +4,9 @@
 class Awesome {
   bool get isAwesome => true;
 }
+
+class Baju {
+  String merek;
+  int harga;
+  Baju(this.merek, this.harga);
+}
